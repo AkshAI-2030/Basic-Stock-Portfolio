@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project is a backend implementation for a stock portfolio management system, enabling users to track stocks, calculate returns, and analyze investment performance.
+This project is a back-end implementation for a stock portfolio management system, enabling users to track stocks, calculate returns, and analyze investment performance.
 
 ## Features
 
@@ -11,6 +11,25 @@ This project is a backend implementation for a stock portfolio management system
 - Calculate stock returns and return percentage
 - Determine profit or loss status
 - Compute cumulative portfolio performance
+
+## Demo
+
+### Live Preview
+- **StackBlitz:** [Live Demo](https://stackblitz.com/edit/stackblitz-starters-3ehxqx?file=index.js)
+- **Vercel Deployment:** [Live Site](https://basic-stock-portfolio-akshay-v1.vercel.app/)
+
+---
+### Video Demo
+<div>
+    <a href="https://www.loom.com/share/0a649aa27e20464897026167441abfce">
+      <p>Basic-Stock-Portfolio-Live-DemoVideo - Watch Video</p>
+    </a>
+    <a href="https://www.loom.com/share/0a649aa27e20464897026167441abfce">
+      <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/0a649aa27e20464897026167441abfce-695b2180d9509ce0-full-play.gif">
+    </a>
+  </div>
+
+---
 
 ## API Endpoints
 
@@ -46,15 +65,6 @@ This project is a backend implementation for a stock portfolio management system
 - **Example Call:** `/stocks/status?returnPercentage=90`
 - **Expected Output:** `profit`
 
-## Demo
-
-### Live Preview
-- **StackBlitz:** [Live Demo](https://stackblitz.com/edit/stackblitz-starters-3ehxqx?file=index.js)
-- **Vercel Deployment:** [Live Site](https://basic-stock-portfolio-akshay-v1.vercel.app/)
-
-### Video Demo
-[![Watch Demo](https://img.youtube.com/vi/dQw4w9WgXcQ/0.jpg)](https://www.youtube.com/watch?v=dQw4w9WgXcQ) 
-
 ## Deployment
 
 To deploy, follow these steps:
@@ -75,7 +85,7 @@ To deploy, follow these steps:
    ```
 3. Start the server:
    ```sh
-   npm start
+   node index.js
    ```
 
 ## Tech Stack
